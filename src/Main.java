@@ -3,7 +3,10 @@ public class Main {
         System.out.println("hello");
         System.out.println("hello onec again");
         System.out.println("hello onec again");
-        
-        
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
     }
 }
