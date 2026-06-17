@@ -8,5 +8,11 @@ public class Main {
         System.out.println("hello onec again");
         System.out.println("hello onec again");
         System.out.println("hello onec again");
+        //hello
+        //hello2
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
+        System.out.println("hello onec again");
     }
 }
