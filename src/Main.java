@@ -14,6 +14,6 @@ public class Main {
         System.out.println("hello onec again");
         System.out.println("hello onec again");
         System.out.println("hello onec again");
-        //git push -u origin newbarnch
+
     }
 }
