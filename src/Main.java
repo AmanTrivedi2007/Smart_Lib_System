@@ -6,6 +6,8 @@ import UserRepo.UserRepository;
 import util.EmailValidator;
 import util.PasswordValidator;
 import Registration.Register;
+import util.PhoneNumberValidator;
+
 public class Main {
     static void main(String args[]) {
         System.out.println("welcome to the Smart Lib System");
@@ -36,6 +38,20 @@ public class Main {
                         }
                         else {
                             System.out.println("please enter a valid Email address");
+                        }
+                    }
+
+                    System.out.println("please enter you Phone number");
+                    boolean flagphone = true;
+                    long phone = 0;
+                    while (flagphone){
+                        phone =  sc.nextLong();
+                        if(PhoneNumberValidator.isValid(phone)){
+                            System.out.println("Phone number is correct");
+                            flagphone = false;
+                        }
+                        else {
+                            System.out.println("please enter a valid Phone number");
                         }
                     }
 
