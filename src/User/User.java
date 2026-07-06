@@ -5,13 +5,16 @@ public class User {
     private int id;
     private String username;
     private String email;
+    private long phone;
+    private int pendingFine;
     private String passwordHash;
 
 
-    public User(int id, String username, String email, String passwordHash) {
+    public User(int id, String username, String email,long phone, String passwordHash) {
         this.id = id;
         this.username = username;
         this.email = email;
+        this.phone = phone;
         this.passwordHash = passwordHash;
     }
 
